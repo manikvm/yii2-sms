@@ -1,0 +1,21 @@
+{
+    "name": "rbt/yii2-twiliosms",
+    "description": "Twilio sms for sending otp messages to the users",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Manikanta",
+            "email": "manikanta.kothapalli@raybiztech.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "twiliosms\\sms\\": ""
+        }
+    }
+}
