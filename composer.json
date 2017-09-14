@@ -17,5 +17,12 @@
         "psr-4": {
             "twiliosms\\sms\\": ""
         }
+    },
+    "repositories":[
+    {
+        "type": "git",
+        "url": "https://github.com/manikvm/yii2-sms.git"
     }
+    ]
+
 }
