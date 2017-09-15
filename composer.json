@@ -10,6 +10,7 @@
             "email": "manikanta.kothapalli@raybiztech.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         
     },
