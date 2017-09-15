@@ -1,5 +1,5 @@
 {
-    "name": "rbt/yii2-twiliosms",
+    "name": "mani/yii2-twiliosms",
     "description": "Twilio sms for sending otp messages to the users",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
