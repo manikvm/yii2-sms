@@ -204,7 +204,8 @@ abstract class Version {
         );
 
         if ($response->getStatusCode() < 200 || $response->getStatusCode() >= 300) {
-            throw $this->exception($response, 'Unable to create record');
+            //throw $this->exception($response, 'Unable to create record');
+            return false;
         }
 
         return $response->getContent();
