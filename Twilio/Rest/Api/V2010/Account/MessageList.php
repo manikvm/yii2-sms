@@ -68,7 +68,10 @@ class MessageList extends ListResource {
             array(),
             $data
         );
-
+        
+        if($payload == false)
+            return $payload;
+        
         return new MessageInstance(
             $this->version,
             $payload,
