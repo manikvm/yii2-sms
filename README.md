@@ -40,9 +40,11 @@ return[
 	            'Live_Account_id'  => 'xxxxxxxxxxxxxxx',
 	            'Live_Auth_Token'  => 'xxxxxxxxxxxxxxx',
 	            'Live_From_Number' => 'xxxxxxxxxxxxxxx',
-
+		    //Here specify the mode whether it is live or test	
 	            'Send_Otp_Mode' => 'test',
-	            'Phone_Country_Code' => '+91' // If it is US use +1
+		    
+		    // If it is US use +1
+	            'Phone_Country_Code' => '+91' 
         	],
         ],
     ]
